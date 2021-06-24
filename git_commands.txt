@@ -1,0 +1,22 @@
+touch .gitignore
+
+git config --global user.name Amanjot Singh #yourname
+git config --global user.email pb7singh@gmail.com #youremail
+git init
+
+git add .
+
+git commit -m "Initial Commit"
+
+git status #just to see working tree is clean or not
+
+ssh-keygen -t ed25519 -C "your_email@example.com" ##to generate ssh key on local machine
+
+tail <copy path of above generated ssh key here>
+it will show ssh key, copy and paste in github online account ssh key generate column
+
+git remote add origin <copy and paste here the ssh url from online github account >
+
+git push origin master
+
+ 
